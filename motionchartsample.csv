@@ -1,0 +1,363 @@
+State,Year,HPI,UR,Region,pop,subPrimePct
+Alabama,2000,203.6,4.5,South,4452,0.122
+Alaska,2000,169.7,6.7,West,628,0.046
+Arizona,2000,207.2,4,Southwest,5167,0.131
+Arkansas,2000,185.6,4.4,South,2679,0.094
+California,2000,283.6,4.9,West,34008,0.127
+Colorado,2000,279.8,2.8,West,4327,0.107
+Connecticut,2000,279,2.2,New England,3413,0.12
+Delaware,2000,277.4,3.9,Middle Atlantic,787,0.159
+Washington DC,2000,265.9,5.7,South,571,0.117
+Florida,2000,213,3.6,South,16050,0.143
+Georgia,2000,247.8,3.7,South,8231,0.158
+Hawaii,2000,238,4.3,West,1212,0.127
+Idaho,2000,204,4.9,West,1300,0.107
+Illinois,2000,251.5,4.3,Midwest,12441,0.124
+Indiana,2000,211.3,3.2,Midwest,6092,0.145
+Iowa,2000,193.4,2.6,Midwest,2929,0.124
+Kansas,2000,186.2,3.7,Midwest,2693,0.133
+Kentucky,2000,220.3,4.1,South,4049,0.122
+Louisiana,2000,163.8,5.4,South,4470,0.14
+Maine,2000,297.5,3.5,New England,1277,0.093
+Maryland,2000,247.3,3.8,Middle Atlantic,5312,0.13
+Massachusetts,2000,440.6,2.6,New England,6363,0.112
+Michigan,2000,261.6,3.5,Midwest,9957,0.131
+Minnesota,2000,240.3,3.3,Midwest,4934,0.092
+Mississippi,2000,181.6,5.6,South,2849,0.139
+Missouri,2000,215.3,3.4,South,5607,0.174
+Montana,2000,219.9,5,West,904,0.099
+Nebraska,2000,204.7,3,Midwest,1713,0.131
+Nevada,2000,194.4,4,West,2018,0.148
+New Hampshire,2000,295.8,2.8,New England,1241,0.116
+New Jersey,2000,295.5,3.7,Middle Atlantic,8434,0.122
+New Mexico,2000,203.6,5,Southwest,1822,0.148
+New York,2000,361.8,4.6,Middle Atlantic,19000,0.132
+North Carolina,2000,242.5,3.6,South,8079,0.168
+North Dakota,2000,167.1,3,Midwest,641,0.065
+Ohio,2000,223,4,Midwest,11364,0.171
+Oklahoma,2000,150.6,3.1,Southwest,3455,0.155
+Oregon,2000,255.2,4.9,West,3432,0.126
+Pennsylvania,2000,246,4.1,Middle Atlantic,12287,0.154
+Rhode Island,2000,299,4.1,New England,1051,0.146
+South Carolina,2000,223.1,3.8,South,4024,0.171
+South Dakota,2000,202.5,2.3,Midwest,756,0.074
+Tennessee,2000,220.7,3.9,South,5703,0.173
+Texas,2000,165.8,4.2,Southwest,20952,0.125
+Utah,2000,240.7,3.3,West,2243,0.151
+Vermont,2000,261.3,2.9,New England,610,0.073
+Virginia,2000,239.4,2.2,South,7105,0.12
+Washington,2000,278.6,5.2,West,5912,0.117
+West Virginia,2000,162.3,5.5,South,1808,0.128
+Wisconsin,2000,233.3,3.6,Midwest,5375,0.081
+Wyoming,2000,156,3.9,West,494,0.106
+Alabama,2001,214.7,5.3,South,,0.082
+Alaska,2001,179.2,6.4,West,,0.031
+Arizona,2001,220.4,4.7,Southwest,,0.084
+Arkansas,2001,195.6,5,South,,0.067
+California,2001,314.4,5.4,West,,0.088
+Colorado,2001,302,3.7,West,,0.075
+Connecticut,2001,305,3.3,New England,,0.087
+Delaware,2001,298.4,3.4,Middle Atlantic,,0.11
+Washington DC,2001,309.2,6.4,South,,0.052
+Florida,2001,235.2,4.8,South,,0.097
+Georgia,2001,265.1,4,South,,0.096
+Hawaii,2001,257.8,4.6,West,,0.057
+Idaho,2001,215.8,5,West,,0.063
+Illinois,2001,266.7,5.4,Midwest,,0.065
+Indiana,2001,221.3,4.4,Midwest,,0.089
+Iowa,2001,203.4,3.3,Midwest,,0.072
+Kansas,2001,196.4,4.3,Midwest,,0.084
+Kentucky,2001,230.8,5.4,South,,0.083
+Louisiana,2001,173,5.9,South,,0.095
+Maine,2001,326.7,3.9,New England,,0.076
+Maryland,2001,269,4,Middle Atlantic,,0.074
+Massachusetts,2001,492,3.7,New England,,0.067
+Michigan,2001,275.3,5.3,Midwest,,0.084
+Minnesota,2001,264.7,3.7,Midwest,,0.057
+Mississippi,2001,190.9,5.5,South,,0.121
+Missouri,2001,227.9,4.7,South,,0.094
+Montana,2001,230.7,4.6,West,,0.062
+Nebraska,2001,213.4,3.1,Midwest,,0.082
+Nevada,2001,207.7,5.3,West,,0.098
+New Hampshire,2001,329.9,3.5,New England,,0.08
+New Jersey,2001,326.5,4.2,Middle Atlantic,,0.082
+New Mexico,2001,212.9,4.8,Southwest,,0.096
+New York,2001,396.6,4.9,Middle Atlantic,,0.105
+North Carolina,2001,254.7,5.5,South,,0.098
+North Dakota,2001,175.5,2.9,Midwest,,0.042
+Ohio,2001,234.1,4.2,Midwest,,0.106
+Oklahoma,2001,159.4,3.8,Southwest,,0.112
+Oregon,2001,269.3,6.3,West,,0.074
+Pennsylvania,2001,263.1,4.7,Middle Atlantic,,0.103
+Rhode Island,2001,335.2,4.7,New England,,0.093
+South Carolina,2001,236.5,5.3,South,,0.102
+South Dakota,2001,213.2,3.4,Midwest,,0.046
+Tennessee,2001,231.8,4.4,South,,0.109
+Texas,2001,176.1,4.8,Southwest,,0.117
+Utah,2001,250,4.4,West,,0.084
+Vermont,2001,281.9,3.6,New England,,0.042
+Virginia,2001,260.3,3.4,South,,0.074
+Washington,2001,294.5,6.4,West,,0.064
+West Virginia,2001,171.8,4.8,South,,0.103
+Wisconsin,2001,245.3,4.5,Midwest,,0.037
+Wyoming,2001,164.7,3.9,West,,0.074
+Alabama,2002,222.1,5.4,South,,0.085
+Alaska,2002,188.1,7.1,West,,0.028
+Arizona,2002,233.2,6.1,Southwest,,0.098
+Arkansas,2002,203.1,5.3,South,,0.061
+California,2002,356,6.7,West,,0.108
+Colorado,2002,315.5,5.7,West,,0.09
+Connecticut,2002,336,4.4,New England,,0.086
+Delaware,2002,324.1,4,Middle Atlantic,,0.089
+Washington DC,2002,354.4,6.7,South,,0.032
+Florida,2002,259.8,5.7,South,,0.111
+Georgia,2002,277.2,4.9,South,,0.099
+Hawaii,2002,279.5,4.1,West,,0.088
+Idaho,2002,223.2,5.4,West,,0.073
+Illinois,2002,282.7,6.5,Midwest,,0.07
+Indiana,2002,227.4,5.2,Midwest,,0.085
+Iowa,2002,210.6,3.9,Midwest,,0.073
+Kansas,2002,204.7,5.1,Midwest,,0.091
+Kentucky,2002,239.1,5.7,South,,0.08
+Louisiana,2002,181.1,5.9,South,,0.086
+Maine,2002,360.3,4.4,New England,,0.076
+Maryland,2002,299.4,4.5,Middle Atlantic,,0.074
+Massachusetts,2002,552.5,5.3,New England,,0.067
+Michigan,2002,286.4,6.2,Midwest,,0.084
+Minnesota,2002,287.8,4.5,Midwest,,0.069
+Mississippi,2002,196.3,6.7,South,,0.111
+Missouri,2002,240.7,5.2,South,,0.097
+Montana,2002,245.4,4.5,West,,0.058
+Nebraska,2002,219.9,3.7,Midwest,,0.086
+Nevada,2002,221.3,5.7,West,,0.118
+New Hampshire,2002,369.6,4.5,New England,,0.086
+New Jersey,2002,367.9,5.8,Middle Atlantic,,0.074
+New Mexico,2002,222.2,5.5,Southwest,,0.089
+New York,2002,441.3,6.2,Middle Atlantic,,0.104
+North Carolina,2002,262.9,6.6,South,,0.091
+North Dakota,2002,185.4,3.5,Midwest,,0.037
+Ohio,2002,241.9,5.7,Midwest,,0.104
+Oklahoma,2002,165.7,4.8,Southwest,,0.112
+Oregon,2002,281.6,7.6,West,,0.079
+Pennsylvania,2002,282.2,5.6,Middle Atlantic,,0.086
+Rhode Island,2002,391,5.1,New England,,0.114
+South Carolina,2002,245.2,5.9,South,,0.088
+South Dakota,2002,223.1,3.3,Midwest,,0.059
+Tennessee,2002,239,5.3,South,,0.114
+Texas,2002,182.7,6.4,Southwest,,0.117
+Utah,2002,253.8,5.8,West,,0.102
+Vermont,2002,301.6,4,New England,,0.039
+Virginia,2002,283.7,4.2,South,,0.071
+Washington,2002,308,7.3,West,,0.074
+West Virginia,2002,179,5.9,South,,0.066
+Wisconsin,2002,257.2,5.3,Midwest,,0.035
+Wyoming,2002,175,4.1,West,,0.087
+Alabama,2003,229.6,5.5,South,,0.098
+Alaska,2003,204,7.7,West,,0.057
+Arizona,2003,250.4,5.7,Southwest,,0.109
+Arkansas,2003,211.8,5.8,South,,0.062
+California,2003,407.3,6.8,West,,0.133
+Colorado,2003,323.6,6.1,West,,0.097
+Connecticut,2003,366.9,5.5,New England,,0.106
+Delaware,2003,357.5,4.2,Middle Atlantic,,0.094
+Washington DC,2003,401.4,7,South,,0.045
+Florida,2003,290,5.3,South,,0.135
+Georgia,2003,286.4,4.8,South,,0.094
+Hawaii,2003,320.9,3.9,West,,0.09
+Idaho,2003,232.3,5.3,West,,0.083
+Illinois,2003,301.6,6.7,Midwest,,0.087
+Indiana,2003,234.2,5.3,Midwest,,0.096
+Iowa,2003,219.9,4.4,Midwest,,0.073
+Kansas,2003,213,5.6,Midwest,,0.087
+Kentucky,2003,248.8,6.2,South,,0.086
+Louisiana,2003,190,6.3,South,,0.087
+Maine,2003,397.9,5,New England,,0.097
+Maryland,2003,338.7,4.5,Middle Atlantic,,0.089
+Massachusetts,2003,607.9,5.8,New England,,0.081
+Michigan,2003,297.8,7.1,Midwest,,0.084
+Minnesota,2003,312.9,4.8,Midwest,,0.078
+Mississippi,2003,202.2,6.4,South,,0.095
+Missouri,2003,253.6,5.6,South,,0.1
+Montana,2003,266.2,4.4,West,,0.073
+Nebraska,2003,228.5,4,Midwest,,0.087
+Nevada,2003,250.6,5.3,West,,0.14
+New Hampshire,2003,406.5,4.4,New England,,0.098
+New Jersey,2003,412.6,5.8,Middle Atlantic,,0.081
+New Mexico,2003,235.6,5.9,Southwest,,0.085
+New York,2003,493.9,6.4,Middle Atlantic,,0.118
+North Carolina,2003,271.2,6.4,South,,0.092
+North Dakota,2003,196.2,3.6,Midwest,,0.032
+Ohio,2003,250.9,6.2,Midwest,,0.098
+Oklahoma,2003,172.3,5.6,Southwest,,0.113
+Oregon,2003,299.1,8.1,West,,0.092
+Pennsylvania,2003,304.3,5.7,Middle Atlantic,,0.079
+Rhode Island,2003,456.9,5.4,New England,,0.145
+South Carolina,2003,253.7,6.7,South,,0.09
+South Dakota,2003,235.6,3.6,Midwest,,0.054
+Tennessee,2003,247,5.7,South,,0.128
+Texas,2003,186.9,6.7,Southwest,,0.125
+Utah,2003,256.8,5.6,West,,0.111
+Vermont,2003,334.9,4.5,New England,,0.045
+Virginia,2003,311.5,4.1,South,,0.075
+Washington,2003,325.1,7.4,West,,0.082
+West Virginia,2003,186.1,6,South,,0.059
+Wisconsin,2003,274.8,5.6,Midwest,,0.046
+Wyoming,2003,187,4.4,West,,0.075
+Alabama,2004,241.9,5.2,South,,0.173
+Alaska,2004,225,7.4,West,,0.13
+Arizona,2004,291.3,5,Southwest,,0.199
+Arkansas,2004,226.4,5.6,South,,0.101
+California,2004,508.9,6.2,West,,0.221
+Colorado,2004,337.7,5.6,West,,0.186
+Connecticut,2004,413.7,4.9,New England,,0.21
+Delaware,2004,411.9,4,Middle Atlantic,,0.166
+Washington DC,2004,494.1,7.5,South,,0.077
+Florida,2004,347.9,4.7,South,,0.228
+Georgia,2004,302.8,4.8,South,,0.202
+Hawaii,2004,401.6,3.3,West,,0.203
+Idaho,2004,257.1,4.7,West,,0.143
+Illinois,2004,328,6.2,Midwest,,0.187
+Indiana,2004,243,5.3,Midwest,,0.192
+Iowa,2004,230.2,4.7,Midwest,,0.124
+Kansas,2004,223.7,5.6,Midwest,,0.155
+Kentucky,2004,263.4,5.5,South,,0.158
+Louisiana,2004,201.4,5.7,South,,0.184
+Maine,2004,449.5,4.6,New England,,0.188
+Maryland,2004,404.9,4.3,Middle Atlantic,,0.193
+Massachusetts,2004,675.2,5.2,New England,,0.169
+Michigan,2004,311.2,7,Midwest,,0.18
+Minnesota,2004,339.9,4.6,Midwest,,0.149
+Mississippi,2004,212.3,6.3,South,,0.159
+Missouri,2004,270.8,5.8,South,,0.175
+Montana,2004,295.2,4.3,West,,0.126
+Nebraska,2004,240.6,3.9,Midwest,,0.159
+Nevada,2004,335.4,4.6,West,,0.214
+New Hampshire,2004,451.7,3.9,New England,,0.181
+New Jersey,2004,475.1,4.9,Middle Atlantic,,0.136
+New Mexico,2004,254.8,5.7,Southwest,,0.147
+New York,2004,559.7,5.8,Middle Atlantic,,0.206
+North Carolina,2004,285.6,5.5,South,,0.16
+North Dakota,2004,214.2,3.5,Midwest,,0.082
+Ohio,2004,261.1,6.2,Midwest,,0.187
+Oklahoma,2004,181.2,4.9,Southwest,,0.174
+Oregon,2004,333.6,7.3,West,,0.17
+Pennsylvania,2004,340.1,5.4,Middle Atlantic,,0.148
+Rhode Island,2004,536.9,5.2,New England,,0.267
+South Carolina,2004,268.8,6.8,South,,0.155
+South Dakota,2004,249.4,3.8,Midwest,,0.098
+Tennessee,2004,259.5,5.5,South,,0.215
+Texas,2004,194.1,6,Southwest,,0.201
+Utah,2004,270.8,5,West,,0.183
+Vermont,2004,379.4,3.7,New England,,0.122
+Virginia,2004,365.7,3.7,South,,0.149
+Washington,2004,362.3,6.3,West,,0.172
+West Virginia,2004,200,5.3,South,,0.093
+Wisconsin,2004,297.5,5,Midwest,,0.109
+Wyoming,2004,208.2,3.9,West,,0.159
+Alabama,2005,264.6,4,South,,
+Alaska,2005,258.4,6.8,West,,
+Arizona,2005,394.8,4.7,Southwest,,
+Arkansas,2005,244.2,4.9,South,,
+California,2005,618.4,5.4,West,,
+Colorado,2005,358.7,5,West,,
+Connecticut,2005,464.8,4.9,New England,,
+Delaware,2005,477.2,4.2,Middle Atlantic,,
+Washington DC,2005,609.6,6.5,South,,
+Florida,2005,444.7,3.8,South,,
+Georgia,2005,322.8,5.3,South,,
+Hawaii,2005,499.5,2.8,West,,
+Idaho,2005,306,3.8,West,,
+Illinois,2005,359.9,5.7,Midwest,,
+Indiana,2005,254.2,5.4,Midwest,,
+Iowa,2005,245,4.6,Midwest,,
+Kansas,2005,234.7,5.1,Midwest,,
+Kentucky,2005,277.5,6.1,South,,
+Louisiana,2005,220.7,7.1,South,,
+Maine,2005,498.2,4.8,New England,,
+Maryland,2005,493.7,4.1,Middle Atlantic,,
+Massachusetts,2005,731.7,4.8,New England,,
+Michigan,2005,322.8,6.7,Midwest,,
+Minnesota,2005,367.4,4,Midwest,,
+Mississippi,2005,228.6,7.9,South,,
+Missouri,2005,290.8,5.4,South,,
+Montana,2005,339.4,4,West,,
+Nebraska,2005,251.2,3.8,Midwest,,
+Nevada,2005,398.1,4.1,West,,
+New Hampshire,2005,496.7,3.6,New England,,
+New Jersey,2005,551.7,4.4,Middle Atlantic,,
+New Mexico,2005,294.9,5.3,Southwest,,
+New York,2005,634.5,5,Middle Atlantic,,
+North Carolina,2005,309.8,5.2,South,,
+North Dakota,2005,233,3.4,Midwest,,
+Ohio,2005,271.2,5.9,Midwest,,
+Oklahoma,2005,192.9,4.4,Southwest,,
+Oregon,2005,400.7,6.1,West,,
+Pennsylvania,2005,383.3,5,Middle Atlantic,,
+Rhode Island,2005,595.8,5,New England,,
+South Carolina,2005,294.1,6.8,South,,
+South Dakota,2005,270.5,3.9,Midwest,,
+Tennessee,2005,280.9,5.6,South,,
+Texas,2005,205,5.3,Southwest,,
+Utah,2005,307.3,4.3,West,,
+Vermont,2005,432,3.5,New England,,
+Virginia,2005,438.8,3.5,South,,
+Washington,2005,430.3,5.5,West,,
+West Virginia,2005,224.2,5,South,,
+Wisconsin,2005,323,4.7,Midwest,,
+Wyoming,2005,234.8,3.6,West,,
+Alabama,2006,284.4,3.5,South,4631,
+Alaska,2006,274.5,6.5,West,700,
+Arizona,2006,432.7,4.1,Southwest,5230,
+Arkansas,2006,258,5.3,South,2750,
+California,2006,646.7,4.9,West,34441,
+Colorado,2006,369.1,4.3,West,4468,
+Connecticut,2006,481.9,4.4,New England,3317,
+Delaware,2006,508.3,3.5,Middle Atlantic,800,
+Washington DC,2006,660.2,5.9,South,529,
+Florida,2006,488.9,3.4,South,16279,
+Georgia,2006,340,4.6,South,8413,
+Hawaii,2006,537.4,2.5,West,1342,
+Idaho,2006,348,3.2,West,1480,
+Illinois,2006,379.8,4.6,Midwest,12266,
+Indiana,2006,258.6,4.9,Midwest,6215,
+Iowa,2006,251.3,3.8,Midwest,2941,
+Kansas,2006,243.3,4.3,Midwest,2761,
+Kentucky,2006,288,5.8,South,4098,
+Louisiana,2006,244.4,3.9,South,4535,
+Maine,2006,522.3,4.6,New England,1285,
+Maryland,2006,536.7,3.8,Middle Atlantic,5467,
+Massachusetts,2006,731.9,4.8,New England,6310,
+Michigan,2006,321.5,6.9,Midwest,9763,
+Minnesota,2006,373.1,4,Midwest,5005,
+Mississippi,2006,251.8,6.7,South,2908,
+Missouri,2006,303.3,4.8,South,5718,
+Montana,2006,374.1,3.3,West,1006,
+Nebraska,2006,256.8,3,Midwest,1761,
+Nevada,2006,414,4.2,West,2070,
+New Hampshire,2006,509.6,3.5,New England,1281,
+New Jersey,2006,585.1,4.7,Middle Atlantic,8392,
+New Mexico,2006,330.7,4.3,Southwest,2016,
+New York,2006,662,4.6,Middle Atlantic,18250,
+North Carolina,2006,331.9,4.7,South,8227,
+North Dakota,2006,244.3,3.2,Midwest,677,
+Ohio,2006,272.8,5.4,Midwest,11428,
+Oklahoma,2006,201,4.1,Southwest,3491,
+Oregon,2006,455.1,5.4,West,3613,
+Pennsylvania,2006,409,4.6,Middle Atlantic,12281,
+Rhode Island,2006,613.7,5.1,New England,1012,
+South Carolina,2006,317.4,6.4,South,4033,
+South Dakota,2006,285.9,3.1,Midwest,810,
+Tennessee,2006,301.9,5.1,South,5966,
+Texas,2006,218.6,4.9,Southwest,21487,
+Utah,2006,359.8,3,West,2411,
+Vermont,2006,461.8,3.7,New England,638,
+Virginia,2006,469.3,3,South,7324,
+Washington,2006,488.9,4.9,West,6258,
+West Virginia,2006,234.8,4.7,South,1849,
+Wisconsin,2006,332.5,4.7,Midwest,5479,
+Wyoming,2006,268.8,3.3,West,568,
+,,,,,,
+"[1] Source: Office of Federal Housing Enterprise Oversight, at http://www.ofheo.gov/hpi_download.aspx",,,,,,
+"[2] Source: U.S. Bureau of Labor Statistics, at http://www.bls.gov/lau/",,,,,,
+"[3] Source: U.S. Census Bureau, Population and Housing, at http://www.census.gov/popest/estimates.php",,,,,,
+"[4] Source: HMDA, Home Mortgage Disclosure Act (Federal Financial Institutions Examination Council), via www.DataPlace.org http://www.dataplace.org/rankings/?la=period&minpop=0&ord=asc&period=2003&sort_by=44967&start=0&subBoundaryTypeId=5&cid=43903",,,,,,

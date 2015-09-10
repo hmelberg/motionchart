@@ -1,0 +1,256 @@
+/**
+ * Motion Charts v3.1 CSS
+ *
+ * University of California, Los Angeles
+ * Statistics Online Computational Resource
+ * 
+ * Motion Charts is a jQuery plugin designed to render dynamic bubble charts and allows efficient and interactive exploration and visualization of longitudinal multivariate Data.
+ *
+ * Copyright (c) 2012 Statistics Online Computational Resource (SOCR)
+ *
+ * Licensed under
+ *	LGPL http://www.gnu.org/licenses/lgpl.html
+ *
+ * http://wiki.stat.ucla.edu/socr/index.php/About_pages_for_SOCR_Motion_Charts
+ *
+ * @author Ramy Elkest
+ */
+
+.mchart .header {
+	position : relative;
+	height : 37px;
+	
+	padding:5px 5px 5px 5px;
+}
+.mchart .title{
+	float: left;
+	margin-left: 96px;
+	font-size: 25px;
+	margin-top: 6px;
+	padding: 4px;
+}
+.mchart .title:hover{
+	cursor: pointer;
+}
+.mchart .edit{
+	font-size: 22px;
+	width: 50%;
+}
+.mchart .content {
+	position : relative;
+	height : 92%;
+	
+	border : gray solid 1px;	
+	text-align : center;
+	font-size: 18px;
+}
+
+.mchart .chart {
+	float : left;
+	width : 100%;
+	height: 100%;
+}
+
+.mchart .columnHolder {
+	height : 87%;
+}
+.mchart .mappings {
+	margin-top: 10px;	
+	color: rgba(248, 148, 6, 1);
+}
+.mchart .mappings td:not(.cat)  {
+	color: rgba(0, 136, 204, 0.5); 
+}
+.mchart .mappings td:not(.cat):hover  {
+	color: rgba(0, 136, 204, 1); 
+	cursor: pointer;
+}
+.mchart .middleColumn {
+	position: relative;
+	float : left;
+	width : 95%;
+	height:100%;
+}
+
+.mchart .myMenuTestSub {
+	position: absolute;
+	right: 0px;
+	width: 7px;
+	height: 20%;
+	top: 10%;
+	z-index: 1;
+	padding: 2px;
+	cursor: default;
+	background-color: rgba(228, 232, 255, 0.95);
+	border-left: 2px solid rgba(0, 136, 204, 0.5);
+	border-top: 2px solid rgba(0, 136, 204, 0.5);
+	border-bottom: 2px solid rgba(0, 136, 204, 0.5);
+	border-radius: 4px 0 0 4px;
+}
+
+.mchart .myMenuTestSub .mappings td
+{
+	max-height: 38px;
+	overflow: hidden;
+}
+
+.mchart .svg {
+	height:85%;
+}
+
+.mchart .timeline {
+	clear : both;
+	height : 49px;
+	border-top : 1px solid gray;
+}
+
+.mchart .control-button {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border: 2px solid #08C;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.mchart .playpause {
+	margin: 8px 20px 8px 20px;
+}
+.mchart .play {
+	background-image: url(images/start.png);
+}
+.mchart .pause {
+	background-image: url(images/pause.png);
+}
+
+.mchart .speed-control {
+	float:left;
+	width:6px;
+	height: 45px;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	padding: 2px 22px 2px 22px;
+}
+.mchart .speed-control-slider.ui-slider-vertical {
+	width: 6px;
+	height: 41px;
+}
+.mchart .speed-control-slider a.ui-slider-handle {
+	width: 20px;
+	height: 4px;
+	left: -8px;
+	margin-bottom: -3px;
+}
+.mchart .slide-control {
+	float: right;
+	width:100px;
+	height: 100%;
+}
+.mchart .backward-skip {
+	background-image: url('images/skip-backward.png');
+	margin: 8px 5px 8px 10px;
+}
+.mchart .forward-skip {
+	background-image: url('images/skip-forward.png');
+	margin: 8px 10px 8px 5px;
+}
+.mchart .control-button:hover {
+	background-color: rgba(180,180,240,0.5);
+}
+.mchart .control-button:active {
+	background-color: rgba(180,180,240,0.9);
+}
+.mchart .slider {
+	width: 70%;
+	float: left;	
+	margin: 16px 20px 16px 20px;
+}
+.mchart .dataTable {
+	display : none;
+	float : left;
+	width : 100%;
+	height: 100%;
+	overflow: auto;
+}
+.mchart .fill-width
+{
+	left:0px;
+	right:0px;
+}
+
+/* SVG Chart */
+
+text {
+  font: 10px sans-serif;
+}
+
+.mchart .circle {
+  stroke: #000;
+  fill-opacity: 0.5;
+  stroke-opacity: 0.5;
+}
+
+.mchart .circle:hover {
+  fill-opacity: 0.75;
+  stroke-opacity: 0.75;
+}
+
+.mchart g.node.selected .circle {
+  fill-opacity: 0.75;
+  stroke-opacity: 0.75;
+}
+
+.mchart .axis path, .mchart .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.mchart .label {
+  fill: #777;
+}
+
+.mchart .year.label {
+  font: 500 196px "Helvetica Neue";
+  fill: #ddd;
+}
+
+.mchart .year.label.active {
+  fill: #aaa;
+}
+
+.mchart text.label:hover {
+	fill: red;
+	fill-opacity: 0.75;
+	cursor: pointer;
+}
+.ui-slider .ui-slider-handle {
+	z-index: 1;
+}
+.context-menu-list {
+	text-align: left;
+}
+
+/* Bootstrap CSS Modifications*/
+.popover-inner {
+  width: auto;
+  background-color: rgba(160, 160, 255, 0.50);
+}
+.popover-title{
+  padding: 5px 5px;
+  background-color: #D7D7FF;
+  text-align: center;
+}
+.popover-content{
+  padding: 5px 10px;
+}
+.popover.right .arrow{
+  border-right: 5px solid rgba(160, 160, 255, 0.50);
+}
+.popover.left .arrow  {
+  border-left: 5px solid rgba(160, 160, 255, 0.50);
+}
+.header .btn-group::after {
+	clear: none;
+}
