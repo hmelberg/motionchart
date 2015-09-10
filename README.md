@@ -1,5 +1,5 @@
 # motionchart
-Easily create an interactive motion chart from a Pandas Dataframe in Python. Publish the chart on a standalone webpage, show it in IPython notebook or save it as a file
+Easily create an interactive motion chart from a Pandas Dataframe in Python. Publish the chart to a standalone webpage, show it in Jupyter notebook or save it as a html file
 
 The basics<BR>
 **0. install required modules** if they are not already installed (pandas, webbrowser)
