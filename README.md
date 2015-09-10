@@ -17,3 +17,7 @@ smc = SocrMotionChart(df = fruitdf)
 smc.to_browser
 <BR><BR>
 see http://socr.ucla.edu/htmls/HTML5/MotionChart/ for a live example
+<BR><BR>
+See the file "motion chart notebook" (above) for more examples and detailed instructions
+<BR><BR>
+http://nbviewer.ipython.org/github/hmelberg/motionchart/blob/master/motion%20chart%20notebook.ipynb
