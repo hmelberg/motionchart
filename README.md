@@ -1,7 +1,6 @@
 # motionchart
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/https://youtu.be/JkpbY08swyA/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/https://youtu.be/JkpbY08swyA/0.jpg)](http://www.youtube.com/watch?v=https://youtu.be/JkpbY08swyA)
+
 <BR>
 Easily create an interactive motion chart from a Pandas Dataframe in Python. Publish the chart to a standalone webpage, show it in Jupyter notebook or save it as a html file
 <BR>
