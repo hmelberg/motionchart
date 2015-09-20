@@ -7,11 +7,8 @@ Easily create an interactive motion chart from a Pandas Dataframe in Python. Pub
 <BR>
 
 The basics<BR>
-**0. Install required modules** if they are not already installed (pandas, webbrowser)
-pip install webbrowser
-<BR><BR>
-**1. Run the code in _motionchartv11.py_ above** (defines the motionchart class)<BR>
-After running the code, you may test that works by executing the following command: motionChartDemo() 
+**1. Install**
+pip install motionchart
 <BR><BR>
 **2. Define your own motion chart** using the columns in a pandas dataframe<BR>
 Example: You have a dataframe called fruitdf and want to create a motionchart:
@@ -19,10 +16,12 @@ Example: You have a dataframe called fruitdf and want to create a motionchart:
 smc = SocrMotionChart(df = fruitdf)
 <BR><BR>
 **3. Display the Motion Chart**<BR>
-smc.to_browser
+smc.to_browser()
 <BR><BR>
 see http://socr.ucla.edu/htmls/HTML5/MotionChart/ for a live example
 <BR><BR>
-See the file "motion chart notebook" (above) for more examples and detailed instructions
+See the file "motion chart notebook" (in the notebooks folder above) for more examples and detailed instructions
 <BR><BR>
 http://nbviewer.ipython.org/github/hmelberg/motionchart/blob/master/motion%20chart%20notebook.ipynb
+<BR><BR>
+**This is an early version, use at your own risk, the API may change**
