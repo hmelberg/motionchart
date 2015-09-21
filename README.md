@@ -16,8 +16,8 @@ Example: You have a dataframe called fruitdf and want to create a motionchart:
 mChart = MotionChart(df = fruitdf)
 <BR><BR>
 **3. Display the Motion Chart**<BR>
-mChart.to_browser()
-or, if using Jupyter notebook
+mChart.to_browser()<BR>
+or, if using Jupyter notebook<BR>
 mChart-to_notebook()
 <BR><BR>
 see http://socr.ucla.edu/htmls/HTML5/MotionChart/ for a live example
@@ -28,5 +28,5 @@ http://nbviewer.ipython.org/github/hmelberg/motionchart/blob/master/motion%20cha
 <BR><BR>
 **This is an early version, use at your own risk, the API may change**
 <BR><BR>
-See https://github.com/RamyElkest/SocrMotionChartsHTML5 for more information about the javascript which builds the chart
+See https://github.com/RamyElkest/SocrMotionChartsHTML5 for more information about the javascript which builds the chart<BR>
 See also https://github.com/psychemedia/dataviz4development/tree/master/SocrMotionCharts
