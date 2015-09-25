@@ -10,4 +10,5 @@ setup(
   download_url = 'https://github.com/hmelberg/motionchart/tarball/0.1', # I'll explain this in a second
   keywords = ['motion chart', 'pandas', 'visualization'], # arbitrary keywords
   classifiers = [],
+  install_requires = ['webbrowser', 'pandas', 'pyperclip']
 )
