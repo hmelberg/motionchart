@@ -6,16 +6,21 @@
 Easily create an interactive motion chart from a Pandas Dataframe in Python. Publish the chart to a standalone webpage, show it in Jupyter notebook or save it as a html file
 <BR><BR>
 
-The basics<BR>
-**1. Install**
+**1. Install**<BR>
 pip install motionchart
 <BR><BR>
-**2. Define your own motion chart** using the columns in a pandas dataframe<BR>
+**2. Import**<BR>
+from motionchart.motionchart import MotionChart, MotionChartDemo<BR>
+<BR><BR>
+**3. Test**<BR>
+MotionChardDemo()<BR>
+<BR><BR>
+**4. Define your own motion chart** using the columns in a pandas dataframe<BR>
 Example: You have a dataframe called fruitdf and want to create a motionchart:
 <BR>
 mChart = MotionChart(df = fruitdf)
 <BR><BR>
-**3. Display the Motion Chart**<BR>
+**5. Display the Motion Chart**<BR>
 mChart.to_browser()<BR>
 or, if using Jupyter notebook<BR>
 mChart-to_notebook()
