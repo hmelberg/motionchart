@@ -29,8 +29,6 @@ see http://socr.ucla.edu/htmls/HTML5/MotionChart/ for a live example
 <BR><BR>
 See the file "motion chart notebook" (in the notebooks folder above) for more examples and detailed instructions
 <BR><BR>
-http://nbviewer.ipython.org/github/hmelberg/motionchart/blob/master/motion%20chart%20notebook.ipynb
-<BR><BR>
 **This is an early version, use at your own risk, the API may change**
 Note that the html file producing the (last) chart you show is saved in a file ("smc_temp.html" and in some cases "temp.html"). New files will overwrite old files.
 <BR><BR>
