@@ -32,5 +32,5 @@ See the file "motion chart notebook" (in the notebooks folder above) for more ex
 **This is an early version, use at your own risk, the API may change**
 Note that the html file producing the (last) chart you show is saved in a file ("smc_temp.html" and in some cases "temp.html"). New files will overwrite old files.
 <BR><BR>
-See https://github.com/RamyElkest/SocrMotionChartsHTML5 for more information about the javascript which builds the chart<BR>
+See https://github.com/RamyElkest/SocrMotionChartsHTML5 for more information about the javascript that builds the chart<BR>
 See also https://github.com/psychemedia/dataviz4development/tree/master/SocrMotionCharts
