@@ -4,10 +4,10 @@ Created on Sun Dec 28 15:33:33 2014
 
 @author: Hans Olav Melberg
 """
-# This is a wrapper which makes it possible to create motion charts easily from a pandas dataframe
+# This is a wrapper that makes it possible to create motion charts from a pandas dataframe
 #
 # Acknowledgements and more information
-# See https://github.com/RamyElkest/SocrMotionChartsHTML5 for more information about the javascript which builds the chart
+# See https://github.com/RamyElkest/SocrMotionChartsHTML5 for more information about the javascript
 # See also https://github.com/psychemedia/dataviz4development/tree/master/SocrMotionCharts
 # For more bakcground, and java version, see http://www.amstat.org/publications/jse/v18n3/dinov.pdf
 
@@ -20,7 +20,7 @@ from IPython.display import display, HTML, IFrame
 class MotionChart(object):
     ''' To create a Motion Chart object from a pandas dataframe:
             mc = MotionChart(df = dataframe)
-        To send the object to the Ipyton Notebook, to a browser, to the clipboard (the HTML string which generates the chart) and to a html file by writing:
+        To send the object to the Ipyton Notebook, to a browser, to the clipboard and to a file by writing:
             mc.to_notebook()
             mc.to_browser()
             mc.to_clipboard()
@@ -47,24 +47,37 @@ class MotionChart(object):
                     
                     Explained:
                         df              # specifies the name of the pandas dataframe used to create the motion chart, default is df
-                        title           # string. the title of the chart (text, string) 
-                        url             # string. url to folder with js and css files; can be local, default is external which requires wireless connection
-                        key             # string or integer. the column number of the time variable (does not have to be time, can be any variable which you want to use to determine the motion)
-                        x               # string or integer. number (integer) or name (text, string) of the x-variable in the chart. Can later be changed by clicking on the varibale in the chart. Number starts from 0 which is the outer index of the dataframe
-                        y 
-                        size            # name (text, string) or column number (integer) of the variable used to determine the size of the circles
-                        color           # name (text, string) or column number (integer) variable used to determine the color of the circles
-                        category        # name (text, string) or column number (integer) variable used to descripbe the category the observation belongs to. Example Mid-West, South. Often the same variable as color.  
-                        xscale          # string. Scale for x-variable, string, default 'linear'. Possible values 'linear', 'log', 'sqrt', 'log', 'quadnomial', 'ordinal'
-                        yscale          # string. Scale for x-variable, string, default 'linear'. Possible values 'linear', 'log', 'sqrt', 'log', 'quadnomial', 'ordinal'
-                        play            # string. 'true' or 'false' (default, false). Determines whether the motion starts right away or if you have to click play first. 
-                        loop            # string. 'true' or 'false' (default, false). Determines whether the motion keeps repeating after one loop over the series, or stops.
-                        width           # integer. width of chart in pixels, default 800
-                        height          # integer. height of chart in pixels, default 400
-                        varLabels       # list. list of labels for columns (default is column headers of dataframe, if specified, must be of same length as the number of columns in the dataframe, including - and starting with - the index columns)
+                        title           # string. The title of the chart 
+                        url             # string. url to folder with js and css files; 
+                                            can be local, default is external which requires wireless connection
+                        key             # string or integer. the column number of the "motion" variable (does not have to be time)
+                        x               # string or integer. number (integer) or name (text, string) of the x-variable in the chart. 
+                                            Can later be changed by clicking on the variable in the chart. 
+                                            Number starts from 0 which is the outer index of the dataframe
+                        y               # string or integer. number (integer) or name (text, string) of the x-variable in the chart.
+                        size            # name (text, string) or column number (integer) 
+                                            The variable used to determine the size of the circles
+                        color           # name (text, string) or column number (integer) 
+                                            The variable used to determine the color of the circles
+                        category        # name (text, string) or column number (integer) 
+                                            The variable used to describe the category the observation belongs to. 
+                                            Example Mid-West, South. Often the same variable as color.  
+                        xscale          # string. Scale for x-variable, string, default 'linear'. 
+                                            Possible values 'linear', 'log', 'sqrt', 'log', 'quadnomial', 'ordinal'
+                        yscale          # string. Scale for x-variable, string, default 'linear'. 
+                                            Possible values 'linear', 'log', 'sqrt', 'log', 'quadnomial', 'ordinal'
+                        play            # string. 'true' or 'false' (default, false). 
+                                            Determines whether the motion starts right away or if you have to click play first. 
+                        loop            # string. 'true' or 'false' (default, false). 
+                                            Determines whether the motion keeps repeating after one loop over the series, or stops.
+                        width           # integer. width of chart in pixels, default 900
+                        height          # integer. height of chart in pixels, default 700
+                        varLabels       # list. list of labels for columns (default is column headers of dataframe)
+                                            Must be of same length as the number of columns in the dataframe, including the index 
                                
         '''
-    # This defines the motion chart object. basically just holds the parameters used to create the chart: name of data source, which variables to use        
+    # This defines the motion chart object. 
+    # Basically just holds the parameters used to create the chart: name of data source, which variables to use        
     def __init__(self,
         df = 'df', 
         title = "Motion Chart",
@@ -82,27 +95,30 @@ class MotionChart(object):
         width = 800,
         height = 600,
         varLabels=None):
-            self.df = df               # specifies the name of the pandas dataframe used to create the motion chart, default is df
-            self.title = title         # the title of the chart (text, string) 
-            self.url = url             # url to folder with js and css files; can be local, default is external which requires wireless connection
-            self.key = key             # the column number of the time variable (does not have to be time, can be any variable which you want to use to determine the motion)
-            self.x = x                 # number or name (text, string) of the x-variable in the chart. Can later be changed by clicking on the varibale in the chart. Number starts from 0 which is the outer index of the dataframe
+            self.df = df              
+            self.title = title         
+            self.url = url                                                    
+            self.key = key             
+            self.x = x                 
             self.y = y
-            self.size = size           # name (text, string) or column number (integer) of the variable used to determine the size of the circles
-            self.color = color         # name (text, string) or column number (integer) variable used to determine the color of the circles
-            self.category = category   # name (text, string) or column number (integer) variable used to descripbe the category the observation belongs to. Example Mid-West, South. Often the same variable as color.  
-            self.xscale= xscale        # Scale for x-variable, string, default 'linear'. Possible values 'linear', 'log', 'sqrt', 'log', 'quadnomial', 'ordinal'
+            self.size = size          
+            self.color = color         
+            self.category = category   
+            self.xscale= xscale        
             self.yscale= yscale
-            self.play = play           # string: 'true' or 'false' (default, false). Determines whether the motion starts right away or if you have to click play first. 
-            self.loop = loop           # string: 'true' or 'false' (default, false). Determines whether the motion keeps repeating after one loop over the series, or stops.
+            self.play = play           
+            self.loop = loop           # string: 'true' or 'false' (default, false).
             self.width = width         # width of chart in pixels, default 800
             self.height = height       # height of chart in pixels, default 400
-            self.varLabels = varLabels # list of labels for columns (default is column headers of dataframe, if specified, must be of same length as the number of columns in the dataframe, including - and starting with - the index columns)
+            self.varLabels = varLabels # list of labels for columns (default is column headers of dataframe
     
-    # The informaton from the object is used to generate the HTML string generating the chart (inserting the specific information in the object into the template string)
-    # Note: The string is generated in two steps, not one, because future version might want to revise some properties without redoing the reformatting and creatingof the dataset from the dataframe
-    # Note: Initially the string itself was saved in the object, but although useful sometimes it seems memory greedy and in this version the object does not store the whole string, only the definition of it
-    # Note: The template string used here is just a revised version of a template somebody else has created (See Tony Hirst: https://github.com/psychemedia/dataviz4development/tree/master/SocrMotionCharts)
+    # The informaton from the object is used to generate the HTML string generating the chart 
+    # (inserting the specific information in the object into the template string)
+    # Note 1: The string is generated in two steps, not one, because future version might want to revise some properties 
+    # without redoing the reformatting and creatingof the dataset from the dataframe
+    # Note 2: Initially the string itself was saved in the object, although useful sometimes it seems memory greedy 
+    # Note 3: The template string used here is just a revised version of a template somebody else has created 
+    # See Tony Hirst: https://github.com/psychemedia/dataviz4development/tree/master/SocrMotionCharts
     def htmlStringStart(self):
         socrTemplateStart='''<!DOCTYPE html>
         <html>
@@ -128,7 +144,7 @@ class MotionChart(object):
         var data = {data};
         </script>
         '''
-        # In order to make it easy to use information in the index of the dataframe, the index is the passed dataframe is reset
+        # In order to make it easy to use information in the index of the dataframe, the index in the passed dataframe is reset
         # For instance: If the time variable is in the index of the dataframe, say the outer index, then one would write
         # mc = MotionChart(df, key = 0) when specifying the motion chart
         # Note that although the key often is time, it does not have to be so (unlike Google Motion Chart)
@@ -137,12 +153,13 @@ class MotionChart(object):
         df = self.df.reset_index()
         
         # If variable labels are not specified, the column names of the dataframe is used
-        # Note. variable levels are specified the list of labels to be used has to have the same number of elements as the columns in the reset dataframe (ie. original number of columns plus number of index levels)
+        # Note. variable levels are specified the list of labels to be used has to have the same number of elements 
+        # as the columns in the reset dataframe (ie. original number of columns plus number of index levels)
         if self.varLabels == None:
             self.varLabels = df.columns.tolist()                
         
         # Here the data is converted from a pandas dataframe to the format which is accepted by the SocrMotion Chart (javascript)
-        # The starting point is a json string of all the values in the dataframe, which is then modified to fit the string SocrMotionChart wants
+        # The starting point is a json string of all the values in the dataframe, which is then modified fit SocrMotionChart 
         dataValuesString = df.to_json(orient = 'values')
         varNamesString = ",".join(['"' + str(var) + '"' for var in self.varLabels])
         varNamesString = "[[" + varNamesString + "], ["
@@ -164,6 +181,8 @@ class MotionChart(object):
         return htmlString1            
     
     # Generating the last half of the html string which produces the motion chart
+    # The reason the string is generated in two halfes, is to open up for revisons in which some options are changed 
+    # without having to transfor and generate the data from the dataframe again.
     def htmlStringEnd(self):
         socrTemplateEnd = '''<div id="content" align="center">
         <div class="motionchart" style="width:{width}px; height:{height}px;"></div>
@@ -184,7 +203,8 @@ class MotionChart(object):
         </body>
         </html>
         '''
-        # Rename variables to avoid changing the properties of the object when changing strings to numbers which must be used in the js script
+        # Rename variables to avoid changing the properties of the object when changing strings to numbers 
+        # (NUmbers are required in the js script)
         kkey   = self.key
         xx     = self.x
         yy     = self.y
@@ -194,8 +214,8 @@ class MotionChart(object):
         
         # The user is free to specify many variables either by location (an integer representing the column number) 
         # or by name (the column name in the dataframe)
-        # This means we have to find and replace with column number if the variable is specified as a string since the javascript wants integers 
-        # (note: variable labels must be unique)
+        # This means we have to find and replace with column number if the variable is specified as a string since 
+        # the javascript wants integers (note: variable labels must be unique)
         # The code below finds and replaces the specified column name (text) with the column number (numeric)
         if type(kkey) is str:
              kkey=self.varLabels.index(kkey)
@@ -231,23 +251,24 @@ class MotionChart(object):
        
     # Display the motion chart in the Ipython notebook  
     # This is saved to a file because in Python 3 it was difficult to encode the string that could be used in HTML directly
-    # TODO: Eliminate file (security risk to leave the file) and avoid name conflicts, what if more than one figure?   
-    def to_notebook(self):
+    # TODO: Eliminate file (security risk to leave the file on disk, and overwrite danger?) and avoid name conflicts.
+    # Also: What if multiple figures?
+    def to_notebook(self, width = 900, height = 700):
         htmlString = self.htmlStringStart() + self.htmlStringEnd()
         path = os.path.abspath('mc_temp.html')
         with open(path, 'w') as f:
             f.write(htmlString)
-        display(IFrame(src="mc_temp.html", width=800, height=600))
+        display(IFrame(src="mc_temp.html", width = width, height = height))
  
     # Copy the HTML string to the clipboard  
     def to_clipboard(self):
-        htmlString = self.htmlStringStart() + self.htmlStringEnd() 
-        pyperclip.copy(self.htmlString)
+        htmlString = self.htmlStringStart() + self.htmlStringEnd()
+        pyperclip.copy(htmlString)
         
-    # Save the motion chart as a HTML file  
-    def to_htmlfile(self, path_and_name):
+    # Save the motion chart as a file (inclulde .html manually if desired)  
+    def to_file(self, path_and_name):
         htmlString = self.htmlStringStart() + self.htmlStringEnd()     
-        fileName = path_and_name + ".html"
+        fileName = path_and_name 
         try:                         # encode will not (need not!) work in Python 3 since it is unicode already
            fileName = fileName.encode('string-escape')
            with open(fileName, 'w') as f:
@@ -255,7 +276,8 @@ class MotionChart(object):
         except:
            with open(fileName, 'w') as f:
                f.write(htmlString)
-               
+
+# Include a demo option               
 def MotionChartDemo():
     fruitdf = pd.DataFrame([
       ['Apples',  '1988-0-1', 1000, 300, 44,'East'],
