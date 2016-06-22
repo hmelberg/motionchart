@@ -13,7 +13,7 @@ pip install motionchart
 from motionchart.motionchart import MotionChart, MotionChartDemo<BR>
 <BR>
 **3. Test**<BR>
-MotionChardDemo()<BR>
+MotionChartDemo()<BR>
 <BR>
 **4. Define your own motion chart** using the columns in a pandas dataframe<BR>
 Example: You have a dataframe called fruitdf and want to create a motionchart:<BR>
